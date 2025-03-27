@@ -30,13 +30,15 @@ int travllingSalesmanProblem(int graph[][V], int s)
 }
 int main()
 {
-    int graph[][V] = { { 0, 10, 15, 20 },
-                       { 10, 0, 35, 25 },
-                       { 15, 35, 0, 30 },
-                       { 20, 25, 30, 0 } };
-    int s = 0;
-    for(;s<4;s++){
-    cout << travllingSalesmanProblem(graph, s) << endl;
-    }
+    // int graph[][V] = { { 0, 10, 15, 20 },
+    //                    { 10, 0, 35, 25 },
+    //                    { 15, 35, 0, 30 },
+    //                    { 20, 25, 30, 0 } };
+    // int s = 0;
+    // for(;s<4;s++){
+    // cout << travllingSalesmanProblem(graph, s) << endl;
+    // }
+    string tmp;
+    cout<<tmp.back()<<"\n";
     return 0;
 }
